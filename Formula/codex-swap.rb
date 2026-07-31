@@ -1,8 +1,8 @@
 class CodexSwap < Formula
   desc "Safely switch between named Codex CLI accounts"
   homepage "https://github.com/irangarcia/codex-swap"
-  url "https://github.com/irangarcia/codex-swap/archive/refs/tags/0.1.0.tar.gz"
-  sha256 "3b014b9b3886fd705c6264a2dcb16f3012c1dfacaa8d2a4060083475fdac2060"
+  url "https://github.com/irangarcia/codex-swap/archive/refs/tags/0.2.0.tar.gz"
+  sha256 "78975550465255b856b323711991dc2aaac9bf0785c6cec04c1d1a148e070880"
   license "MIT"
 
   depends_on "python@3.14"
