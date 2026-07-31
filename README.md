@@ -1,18 +1,33 @@
-# Irangarcia Tap
+# irangarcia Homebrew tap
 
-## How do I install these formulae?
+Homebrew formulae maintained by [Iran Garcia](https://github.com/irangarcia).
 
-`brew install irangarcia/tap/<formula>`
+## codex-swap
 
-Or `brew tap irangarcia/tap` and then `brew install <formula>`.
+Safely switch between named Codex CLI accounts.
 
-Or, in a `brew bundle` `Brewfile`:
+```sh
+brew install irangarcia/tap/codex-swap
+```
+
+Project: [irangarcia/codex-swap](https://github.com/irangarcia/codex-swap)
+
+Upgrade an existing installation:
+
+```sh
+brew upgrade codex-swap
+```
+
+You can also tap this repository explicitly:
+
+```sh
+brew tap irangarcia/tap
+brew install codex-swap
+```
+
+In a `Brewfile`:
 
 ```ruby
 tap "irangarcia/tap"
-brew "<formula>"
+brew "codex-swap"
 ```
-
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
