@@ -2,6 +2,22 @@
 
 Homebrew formulae maintained by [Iran Garcia](https://github.com/irangarcia).
 
+## agentwho
+
+Automatically uses the correct Claude and Codex account for every project.
+
+```sh
+brew install irangarcia/tap/agentwho
+```
+
+Project: [irangarcia/agentwho](https://github.com/irangarcia/agentwho)
+
+After installation, run:
+
+```sh
+agentwho init
+```
+
 ## codex-swap
 
 Safely switch between named Codex CLI accounts.
