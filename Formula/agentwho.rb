@@ -3,6 +3,13 @@ class Agentwho < Formula
   homepage "https://github.com/irangarcia/agentwho"
   license "MIT"
 
+  bottle do
+    root_url "https://github.com/irangarcia/homebrew-tap/releases/download/agentwho-0.1.3"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "5b3707b1494e0feb7483ef0668774b7043adf6dcadf2e6ab9e4d9116f7373e41"
+    sha256 cellar: :any_skip_relocation, sequoia:      "12249871bce8d6e9b98332c98f4b6d88216aa4348df5f383a332ab47a06a0fa7"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "886d5175892b4b789531c03b01ec62303b8fd1ccc960d23b9f9bb7862d55ea32"
+  end
+
   if OS.mac? && Hardware::CPU.intel?
     url "https://github.com/irangarcia/agentwho/releases/download/v0.1.3/agentwho_0.1.3_darwin_amd64.tar.gz"
     sha256 "bf3df0343602ef17202533510e7efe4ef56f3ad41e6e0935c0f6f2068057d672"
