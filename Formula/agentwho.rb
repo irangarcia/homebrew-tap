@@ -3,31 +3,24 @@ class Agentwho < Formula
   homepage "https://github.com/irangarcia/agentwho"
   license "MIT"
 
-  bottle do
-    root_url "https://github.com/irangarcia/homebrew-tap/releases/download/agentwho-0.1.6"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "06e189b4c7590e21918dd08e21d5a20721f232a3b12e8ac656dbeca82c55a940"
-    sha256 cellar: :any_skip_relocation, sequoia:      "9e183ab144eb3e3981e539680bcecf8ee0aa4b34a7b45a62ab4aa48c971a4475"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "5bf7c77976879ec74824c22f4e850f7f47a1ca63eeb49d34ee441f15ae40a116"
-  end
-
   if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/irangarcia/agentwho/releases/download/v0.1.6/agentwho_0.1.6_darwin_amd64.tar.gz"
-    sha256 "669a6f6b92ba802e7ab81880daa18596d175475268bdaf1a9b8eed78856673cd"
+    url "https://github.com/irangarcia/agentwho/releases/download/v0.1.7/agentwho_0.1.7_darwin_amd64.tar.gz"
+    sha256 "950b5c86e3ad691dd623a48aea268f110005a4bca9ba2bb66f21d9eb9648e0fe"
   end
 
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/irangarcia/agentwho/releases/download/v0.1.6/agentwho_0.1.6_darwin_arm64.tar.gz"
-    sha256 "77d25cb3887ab6a69be565a43ffcf8c0df5f9cbbddb4e32c66c72b493f964deb"
+    url "https://github.com/irangarcia/agentwho/releases/download/v0.1.7/agentwho_0.1.7_darwin_arm64.tar.gz"
+    sha256 "0114229ca2c79810017cf3e9f15506c58777fbe901606ebdc4234b9766b39ecc"
   end
 
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/irangarcia/agentwho/releases/download/v0.1.6/agentwho_0.1.6_linux_amd64.tar.gz"
-    sha256 "64fc0bb637a68b51ae1cb2d5dbfb2ce34b54bb158bc1fd9c73200e1b8d4a0e98"
+    url "https://github.com/irangarcia/agentwho/releases/download/v0.1.7/agentwho_0.1.7_linux_amd64.tar.gz"
+    sha256 "425e2c5fd2f845437e637c6843ad084d087da4e6e0adcbd123022795ecd5bdcb"
   end
 
   if OS.linux? && Hardware::CPU.arm?
-    url "https://github.com/irangarcia/agentwho/releases/download/v0.1.6/agentwho_0.1.6_linux_arm64.tar.gz"
-    sha256 "fe10ea26369aea015911e2ff6f013f442f0c63c23c2f8de33a409dc5d6a5d6eb"
+    url "https://github.com/irangarcia/agentwho/releases/download/v0.1.7/agentwho_0.1.7_linux_arm64.tar.gz"
+    sha256 "180618115a04dc3f81690973deb6797a7683b8eef0c506b449fe1b09c67e2dd9"
   end
 
   def install
